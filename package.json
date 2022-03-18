@@ -1,0 +1,16 @@
+{
+  "name": "terrium-shop",
+  "type": "module",
+  "main": "index.js",
+  "author": "Bryth",
+  "scripts": {
+    "deploy": "node deployCommands.js"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.27.2",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "mysql2": "^2.3.3"
+  }
+}
